@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-height: 100vh;
+  color: white;
+}
+img {
+  width: 50%;
+  height: 50%;
+}

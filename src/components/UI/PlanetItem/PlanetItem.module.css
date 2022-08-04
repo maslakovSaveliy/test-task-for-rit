@@ -1,0 +1,11 @@
+.planet__item {
+  box-sizing: border-box;
+  border: 1px solid white;
+  flex-direction: column;
+  cursor: pointer;
+  display: flex;
+  padding: 15px;
+  margin-top: 20px;
+  color: white;
+  align-items: center;
+}

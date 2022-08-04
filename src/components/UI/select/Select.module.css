@@ -1,0 +1,5 @@
+.MySelect {
+  max-width: 90px;
+  display: flex;
+  align-self: flex-start;
+}
