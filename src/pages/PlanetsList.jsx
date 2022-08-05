@@ -15,7 +15,7 @@ const PlanetsList = () => {
   }, []);
   return (
     <div className="planets__list">
-      {error && <h1>Произошла ошибка {error}</h1>}
+      {error && <h1>Произошла ошибка: {error}</h1>}
       {isLoading ? (
         <Circles color="white" />
       ) : (
