@@ -8,9 +8,7 @@ const PlanetItem = (props) => {
       className={style.planet__item}
       onClick={() => navigate(`/${props.id}`)}
     >
-      <h1>
-        {props.id}. {props.planet.name}
-      </h1>
+      <h1>{props.planet.name}</h1>
       <div className={style.planet__info}>
         <ul>
           <li>Rotation period: {props.planet.rotation_period} hours</li>
