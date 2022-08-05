@@ -1,7 +1,7 @@
 import axios from "axios";
 export default class Service {
-  static async getPlanets(page) {
-    const res = await axios.get("https://swapi.dev/api/planets/?page=" + page);
+  static async getPlanets() {
+    const res = await axios.get("https://swapi.dev/api/planets/?page=");
     return res;
   }
   static async getPlanet(id) {
